@@ -1,23 +1,28 @@
 
 body {
-    background:gray;
+    
+    background-image: url(../images/concrete_seamless.png);
+
 }
     
 
 h1 { 
-    background: lightblue;
+    background: #4aaaa5;
     color: white;
     margin: -10px;
     height: 60px;
-    padding-left:180px;
+    padding-left:30px;
     padding-top:30px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     size: 18px;
+    width: 20%;
+    margin-left:11%;
+    padding-right:17px;
     
 
 }
 a {
-    color:red;
+    color:gray;
     float:right;
     padding:20px;
     margin-top:-50px;
@@ -25,15 +30,15 @@ a {
     
 }
 h2 { 
-    color:black;
+    color:#4aaaa5;
     padding-left:20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 div {
-    background:wheat;
-    margin: 150px;
+    background:white;
+    margin: 155px;
     margin-top: 40px;
-   overflow:auto;
+    overflow:auto;
     
 }
 img {
@@ -53,5 +58,8 @@ hr { margin-left:20px;
     color:gray;
     height:0px;
     display:block;
+}
+section {
+    background-color:white;
 }
 
