@@ -62,7 +62,7 @@ hr { margin-left:20px;
 section {
     background-color:white;
 }
-
+        
 .fname {
     color: gray;
     float: left;
@@ -97,7 +97,8 @@ section {
     background-color:white;
     padding-right:auto;
     resize:vertical;
-    width:70%
+    width:60%;
+    box-align: center;
     
 }
 input[type=submit] {
@@ -110,8 +111,20 @@ input[type=submit] {
     font-size: 15px;
     margin-top: -9%;
     margin-right:45%; 
-    margin-left:11%;
+    margin-left:6%;
     float:left;
 
-}
+    <---------->
     
+
+}
+
+  .wrapper {
+      width: 50%;
+      padding-left:35px;
+      box-align: center;
+  }
+  .img3 , .img4 , .img5 {
+      padding-top:15px;
+  }
+  
