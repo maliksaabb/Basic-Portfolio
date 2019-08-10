@@ -59,35 +59,44 @@ hr { margin-left:20px;
     height:0px;
     display:block;
 }
+form {
+
+    
+}
+.name-email {
+    margin-right: 15px;
+}
 section {
     background-color:white;
 }
         
-.fname {
+#fname {
     color: gray;
     float: left;
     margin-left:50px;
-    padding-right:10%;
-    width:300%;
+    padding-right:8%;
+    width: 80%;
 }
-.email{
+#email{
+    margin: 20px;
     margin-left:50px;
-    padding-top:1%;
-    padding-right:0%;
-    padding-left:0%;
-    padding-bottom:20%;
+    padding-top:0px;
+    padding-right:9px;
+    padding-left:20px;
+    padding-bottom:0%;
     float:left;
     color:gray;
+    width: 85%;
     
 }
-.message {
-    margin-left:50px;
-    margin-top:-17%;
-    padding-right:0%;
+#message {
+    margin-left: 7%;
+    margin-top:0%;
+    padding-right:-20px;
     padding-left:-20%;
     float:left;
-    padding-top:4%;
-    padding-bottom:10%;
+    padding-top:0%;
+    padding-bottom:0%;
     color:gray;
     
     
@@ -109,14 +118,16 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     font-size: 15px;
-    margin-top: -9%;
+    margin-top: 5%;
     margin-right:45%; 
     margin-left:6%;
-    float:left;
+    float:left;    
 
-    <---------->
-    
+}
 
+.input-fields {
+    margin: 0 auto;
+    max-width: 800px;
 }
 
   .wrapper {
